@@ -5,9 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TinyKit.svg?style=flat)](https://cocoapods.org/pods/TinyKit)
 [![Platform](https://img.shields.io/cocoapods/p/TinyKit.svg?style=flat)](https://cocoapods.org/pods/TinyKit)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+便于日常开发的库
 
 ## Requirements
 
@@ -22,7 +20,7 @@ pod 'TinyKit'
 
 ## Author
 
-Changzw, changzhongwei3@163.com
+Changzw, changzhongwei3@gmail.com
 
 ## License
 
