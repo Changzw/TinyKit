@@ -1,0 +1,22 @@
+{
+  "name": "TinyKit",
+  "version": "0.1.0",
+  "summary": "A short description of TinyKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Changzw/TinyKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Changzw": "changzhongwei3@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Changzw/TinyKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TinyKit/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TinyKit (0.1.0)
+
+DEPENDENCIES:
+  - TinyKit (from `../`)
+
+EXTERNAL SOURCES:
+  TinyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TinyKit: e3439ac053d4a6e15035a540c2b74bcab0fb63b4
+
+PODFILE CHECKSUM: 7a4fbbb097148c1886a3e245307d326b7cd361e1
+
+COCOAPODS: 1.10.1

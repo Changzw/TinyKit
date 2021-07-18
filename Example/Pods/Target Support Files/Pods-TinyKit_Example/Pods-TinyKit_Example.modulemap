@@ -1,0 +1,6 @@
+framework module Pods_TinyKit_Example {
+  umbrella header "Pods-TinyKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
