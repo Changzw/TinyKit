@@ -29,7 +29,7 @@ TODO: Add long description of the pod here. 日常工作便捷工具
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
+  s.swift_versions = '5.5'
   s.source_files = 'TinyKit/Classes/**/*'
   
   # s.resource_bundles = {
