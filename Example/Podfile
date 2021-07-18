@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TinyKit_Example' do
+  pod 'TinyKit', :path => '../'
+
+  target 'TinyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
