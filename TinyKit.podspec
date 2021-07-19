@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TinyKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of TinyKit.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,28 @@ TODO: Add long description of the pod here. 日常工作便捷工具
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'dependency' do |d|
+    d.dependency 'Action',           '4.2.0'
+    d.dependency 'RxCocoa',          '5.1.1'
+    d.dependency 'RxSwiftExt',       '5.2.0'
+    d.dependency 'RxGesture',        '3.0.2'
+    d.dependency 'RxAnimated',       '0.7.0'
+    d.dependency 'NSObject+Rx',      '5.1.0'
+    d.dependency 'Moya/RxSwift',     '14.0.0'
+    d.dependency 'Nuke',             '9.5.0'
+    d.dependency 'Hue',              '5.0.0'
+    d.dependency 'SnapKit',          '5.0.1'
+    d.dependency 'MagazineLayout',   '1.6.3'
+    d.dependency 'DifferenceKit',    '1.1.5'
+    d.dependency 'MJRefresh',        '3.5.0'
+    d.dependency 'FSPagerView',      '0.8.3'
+    d.dependency 'KeychainAccess',   '4.2.2'
+    d.dependency 'PagingKit',        '1.18.0'
+    d.dependency 'SwiftRichString',  '3.7.2'
+    d.dependency 'MLeaksFinder',     :configurations => ['Debug']
+    d.dependency 'LookinServer',     :configurations => ['Debug']
+    d.dependency 'PanModal',         '1.2.8'
+    d.dependency 'MMKV',             '1.2.7'
+    d.dependency 'SwiftTweaks',      '4.1.2'
+  end
 end

@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6D50EFE6D17F33E192A1E35D /* Pods_TinyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232CFC0D4E8DC4809C31EA96 /* Pods_TinyKit_Example.framework */; };
+		9056602126A5C265006E6DC9 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056602026A5C265006E6DC9 /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		659CA4CF13C66111D2FE9C4E /* Pods-TinyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TinyKit_Tests/Pods-TinyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71249DC50A036E735CB7C032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8D8144A50E7087A829887F1D /* Pods-TinyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TinyKit_Tests/Pods-TinyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9056602026A5C265006E6DC9 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		99CF9194112CBA415CAA7889 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for TinyKit */ = {
 			isa = PBXGroup;
 			children = (
+				9056601F26A5C25C006E6DC9 /* content */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -154,6 +157,14 @@
 				4D3FC34336C4FA8499E6D187 /* Pods_TinyKit_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9056601F26A5C25C006E6DC9 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				9056602026A5C265006E6DC9 /* Content.swift */,
+			);
+			name = content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +340,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9056602126A5C265006E6DC9 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
