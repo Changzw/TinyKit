@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		10031A412C1C28962D20D09964F33A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1AC2F9838B677957BE84461C3B3964A6 /* Pods-TinyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60297B2F01F0F84272D6CF83258CEC82 /* Pods-TinyKit_Example-dummy.m */; };
-		2A64A1B2DEB5ADC51A78E46CA492E4DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC18170D2EDF62C304F7EA102FFB1EB /* ReplaceMe.swift */; };
 		349773222B6640AB3862603BB19A5656 /* TinyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2247A383866B96F12EEC7C36DCE129BB /* TinyKit-dummy.m */; };
 		3AE062B91B81A2DFEEABEB4B21DEA3C5 /* Pods-TinyKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C7ACE4BB24A6CC2A1F18B17AC6B06 /* Pods-TinyKit_Tests-dummy.m */; };
 		5170FAE56E953001AD1754BF95E01ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		65537E7425174514E59CE2A5B0477C87 /* Pods-TinyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4E0778EE7D36BEA4F57D6EC280DEA0 /* Pods-TinyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A9A2DC26A532D000C2B233 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9A2DB26A532D000C2B233 /* Log.swift */; };
+		90A9A2DE26A5330500C2B233 /* ValueCopyOnWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9A2DD26A5330500C2B233 /* ValueCopyOnWrite.swift */; };
 		96C9103CECFCB2D33BB0FF4D3B64A9D4 /* TinyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9164EEE4EFD3DEB6F0CD8DEA1C20EC /* TinyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC96FEA9FDADD7667A86B37E7BC2F5A /* Pods-TinyKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A08699BA27B8965FEE5E0090F9751B /* Pods-TinyKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D213971146C2D47C980A2CE462DB2E07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,23 +42,24 @@
 		0F02D040A617A5B48953AE39D888544F /* Pods-TinyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20A08699BA27B8965FEE5E0090F9751B /* Pods-TinyKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinyKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2247A383866B96F12EEC7C36DCE129BB /* TinyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyKit-dummy.m"; sourceTree = "<group>"; };
-		3DC18170D2EDF62C304F7EA102FFB1EB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TinyKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4EE41F0A5DF1EEE23B08F1A77AC58BC9 /* Pods-TinyKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinyKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		54BDBBE650DDC44F0C48AC0876D90453 /* TinyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyKit-prefix.pch"; sourceTree = "<group>"; };
 		60297B2F01F0F84272D6CF83258CEC82 /* Pods-TinyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinyKit_Example-dummy.m"; sourceTree = "<group>"; };
-		618C4FF31236E8351FF7D2BE03D26725 /* Pods_TinyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinyKit_Tests.framework; path = "Pods-TinyKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618C4FF31236E8351FF7D2BE03D26725 /* Pods_TinyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9164EEE4EFD3DEB6F0CD8DEA1C20EC /* TinyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyKit-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		761FCFDD7B00CE79BF85B797ADACE2E9 /* TinyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyKit.modulemap; sourceTree = "<group>"; };
-		80782B19295C7E1F5A7D7D3AB483FD40 /* Pods_TinyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinyKit_Example.framework; path = "Pods-TinyKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82D079179704D9B45EA6D9F8D7C2CC6A /* TinyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyKit.framework; path = TinyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80782B19295C7E1F5A7D7D3AB483FD40 /* Pods_TinyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D079179704D9B45EA6D9F8D7C2CC6A /* TinyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B092E3420D8EF4DE8AB4F1EC7402D4 /* Pods-TinyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A42441D2CA34A033827920E95870939 /* Pods-TinyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90A9A2DB26A532D000C2B233 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		90A9A2DD26A5330500C2B233 /* ValueCopyOnWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueCopyOnWrite.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4E0778EE7D36BEA4F57D6EC280DEA0 /* Pods-TinyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinyKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		A73C894582F8F6DF2F5874D1AC0FE401 /* TinyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyKit-Info.plist"; sourceTree = "<group>"; };
 		AEB265247E56E6CC9F3B5C2F286A05CC /* TinyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyKit.release.xcconfig; sourceTree = "<group>"; };
-		AFE5AFD96F56D492F596A41505E02588 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AFE5AFD96F56D492F596A41505E02588 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B01C7ACE4BB24A6CC2A1F18B17AC6B06 /* Pods-TinyKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinyKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B96B4FC33E7CD00964138700B2C18896 /* Pods-TinyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinyKit_Example.modulemap"; sourceTree = "<group>"; };
 		C489704CBA11070765996AE8B02B0A95 /* Pods-TinyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinyKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -66,9 +68,9 @@
 		CBC83DA6F5165F13E351CAE6D0DB8755 /* Pods-TinyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D9803CD8193CDDF03476007B37D55D9E /* Pods-TinyKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinyKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		E1568E19C7D9CBF3BD37C64A1CE8BDEB /* Pods-TinyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F06D94F279E01886793F627CF627F0D8 /* TinyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TinyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F06D94F279E01886793F627CF627F0D8 /* TinyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TinyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1495652AB32526A104F5E934348977E /* Pods-TinyKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinyKit_Example-Info.plist"; sourceTree = "<group>"; };
-		F250875395E12F53EC7BDC87EABEFAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F250875395E12F53EC7BDC87EABEFAC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD8EAC082078BADCE653716B60E03BB8 /* Pods-TinyKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinyKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +139,8 @@
 		7D50B2F4FD137D920518795CE4BE30F2 /* TinyKit */ = {
 			isa = PBXGroup;
 			children = (
-				3DC18170D2EDF62C304F7EA102FFB1EB /* ReplaceMe.swift */,
+				90A9A2DB26A532D000C2B233 /* Log.swift */,
+				90A9A2DD26A5330500C2B233 /* ValueCopyOnWrite.swift */,
 				5577E7F7F2613EEAA71AC92D15F0DDF9 /* Pod */,
 				FA28D9202621823DF404C524EC5C9132 /* Support Files */,
 			);
@@ -383,8 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A64A1B2DEB5ADC51A78E46CA492E4DA /* ReplaceMe.swift in Sources */,
+				90A9A2DE26A5330500C2B233 /* ValueCopyOnWrite.swift in Sources */,
 				349773222B6640AB3862603BB19A5656 /* TinyKit-dummy.m in Sources */,
+				90A9A2DC26A532D000C2B233 /* Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,8 +658,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
