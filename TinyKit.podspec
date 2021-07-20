@@ -30,11 +30,26 @@ TODO: Add long description of the pod here. 日常工作便捷工具
 
   s.ios.deployment_target = '11.0'
   s.swift_versions = '5.5'
-  s.source_files = 'TinyKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TinyKit' => ['TinyKit/Assets/*.png']
   # }
+
+  s.subspec 'Store' do |ss|
+    ss.source_files = 'TinyKit/Classes/Store/*'
+  end
+
+  s.subspec 'Extensions' do |ss|
+    ss.source_files = 'TinyKit/Classes/Extensions/*'
+  end
+  
+  s.subspec 'Wrapper' do |ss|
+    ss.source_files = 'TinyKit/Classes/Wrapper/*'
+  end
+
+  s.subspec 'nonname' do |ss|
+    ss.source_files = 'TinyKit/Classes/*'
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -57,9 +72,7 @@ TODO: Add long description of the pod here. 日常工作便捷工具
     d.dependency 'KeychainAccess',   '4.2.2'
     d.dependency 'PagingKit',        '1.18.0'
     d.dependency 'SwiftRichString',  '3.7.2'
-    d.dependency 'MLeaksFinder',     :configurations => ['Debug']
     d.dependency 'LookinServer',     :configurations => ['Debug']
-    d.dependency 'PanModal',         '1.2.8'
     d.dependency 'MMKV',             '1.2.7'
     d.dependency 'SwiftTweaks',      '4.1.2'
   end

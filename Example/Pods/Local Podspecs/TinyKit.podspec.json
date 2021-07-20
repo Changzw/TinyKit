@@ -1,22 +1,117 @@
 {
   "name": "TinyKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of TinyKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: Add long description of the pod here. 日常工作便捷工具",
   "homepage": "https://github.com/Changzw/TinyKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Changzw": "changzhongwei3@163.com"
+    "Changzw": "changzhongwei3@gmail.com"
   },
   "source": {
     "git": "https://github.com/Changzw/TinyKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "TinyKit/Classes/**/*"
+  "swift_versions": "5.5",
+  "subspecs": [
+    {
+      "name": "Store",
+      "source_files": "TinyKit/Classes/Store/*"
+    },
+    {
+      "name": "Extensions",
+      "source_files": "TinyKit/Classes/Extensions/*"
+    },
+    {
+      "name": "Wrapper",
+      "source_files": "TinyKit/Classes/Wrapper/*"
+    },
+    {
+      "name": "nonname",
+      "source_files": "TinyKit/Classes/*"
+    },
+    {
+      "name": "dependency",
+      "dependencies": {
+        "Action": [
+          "4.2.0"
+        ],
+        "RxCocoa": [
+          "5.1.1"
+        ],
+        "RxSwiftExt": [
+          "5.2.0"
+        ],
+        "RxGesture": [
+          "3.0.2"
+        ],
+        "RxAnimated": [
+          "0.7.0"
+        ],
+        "NSObject+Rx": [
+          "5.1.0"
+        ],
+        "Moya/RxSwift": [
+          "14.0.0"
+        ],
+        "Nuke": [
+          "9.5.0"
+        ],
+        "Hue": [
+          "5.0.0"
+        ],
+        "SnapKit": [
+          "5.0.1"
+        ],
+        "MagazineLayout": [
+          "1.6.3"
+        ],
+        "DifferenceKit": [
+          "1.1.5"
+        ],
+        "MJRefresh": [
+          "3.5.0"
+        ],
+        "FSPagerView": [
+          "0.8.3"
+        ],
+        "KeychainAccess": [
+          "4.2.2"
+        ],
+        "PagingKit": [
+          "1.18.0"
+        ],
+        "SwiftRichString": [
+          "3.7.2"
+        ],
+        "MLeaksFinder": [
+
+        ],
+        "LookinServer": [
+
+        ],
+        "MMKV": [
+          "1.2.7"
+        ],
+        "SwiftTweaks": [
+          "4.1.2"
+        ]
+      },
+      "configuration_pod_whitelist": {
+        "MLeaksFinder": [
+          "debug"
+        ],
+        "LookinServer": [
+          "debug"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.5"
 }

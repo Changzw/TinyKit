@@ -28,5 +28,12 @@ final class ViewController: UITableViewController {
     return cell
   }
   
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let t = items[indexPath.row]
+    switch t {
+      case .typedNotification:
+        navigationController?.pushViewController(TypedNotificationViewController(), animated: true)
+    }
+  }
 }
 
