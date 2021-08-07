@@ -16,6 +16,17 @@
 		6D50EFE6D17F33E192A1E35D /* Pods_TinyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232CFC0D4E8DC4809C31EA96 /* Pods_TinyKit_Example.framework */; };
 		9056602126A5C265006E6DC9 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056602026A5C265006E6DC9 /* Content.swift */; };
 		9056602426A5C6FB006E6DC9 /* TypedNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056602326A5C6FB006E6DC9 /* TypedNotificationViewController.swift */; };
+		905CDCA326A70D6D00D4F7BA /* Model_Specialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA226A70D6D00D4F7BA /* Model_Specialize.swift */; };
+		905CDCA526A70DD500D4F7BA /* NotificationRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA426A70DD500D4F7BA /* NotificationRepresentable.swift */; };
+		905CDCA726A7165000D4F7BA /* TypedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA626A7165000D4F7BA /* TypedNotification.swift */; };
+		905CDCA926A7240E00D4F7BA /* NotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA826A7240E00D4F7BA /* NotificationDescriptor.swift */; };
+		907726F826BB9036009C5141 /* UIImage+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907726F726BB9036009C5141 /* UIImage+extensions.swift */; };
+		907726FA26BB906A009C5141 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907726F926BB906A009C5141 /* Int+extension.swift */; };
+		90A80CEF26B58DC50081B5AE /* Broadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A80CEE26B58DC50081B5AE /* Broadcaster.swift */; };
+		90A9510826B2FB5E00944900 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9510726B2FB5E00944900 /* Tracker.swift */; };
+		90A9510926B2FC9D00944900 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9510726B2FB5E00944900 /* Tracker.swift */; };
+		90C43C6926BE8DAE00C1F572 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C43C6826BE8DAE00C1F572 /* OCViewController.m */; };
+		90E4C7EE26BAF78F00ECC8E4 /* TypedErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4C7ED26BAF78F00ECC8E4 /* TypedErasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,18 @@
 		8D8144A50E7087A829887F1D /* Pods-TinyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TinyKit_Tests/Pods-TinyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9056602026A5C265006E6DC9 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		9056602326A5C6FB006E6DC9 /* TypedNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotificationViewController.swift; sourceTree = "<group>"; };
+		905CDCA226A70D6D00D4F7BA /* Model_Specialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Specialize.swift; sourceTree = "<group>"; };
+		905CDCA426A70DD500D4F7BA /* NotificationRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepresentable.swift; sourceTree = "<group>"; };
+		905CDCA626A7165000D4F7BA /* TypedNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotification.swift; sourceTree = "<group>"; };
+		905CDCA826A7240E00D4F7BA /* NotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDescriptor.swift; sourceTree = "<group>"; };
+		907726F726BB9036009C5141 /* UIImage+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extensions.swift"; sourceTree = "<group>"; };
+		907726F926BB906A009C5141 /* Int+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		90A80CEE26B58DC50081B5AE /* Broadcaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcaster.swift; sourceTree = "<group>"; };
+		90A9510726B2FB5E00944900 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		90C43C6626BE8DAE00C1F572 /* TinyKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		90C43C6726BE8DAE00C1F572 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		90C43C6826BE8DAE00C1F572 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		90E4C7ED26BAF78F00ECC8E4 /* TypedErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedErasure.swift; sourceTree = "<group>"; };
 		99CF9194112CBA415CAA7889 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,10 +129,16 @@
 		607FACD21AFB9204008FA782 /* Example for TinyKit */ = {
 			isa = PBXGroup;
 			children = (
+				907726F626BB901E009C5141 /* tmp */,
+				90E4C7EC26BAF77300ECC8E4 /* typed erasure */,
+				90A9510626B2F96D00944900 /* StateMachine */,
 				9056603126A5CAB5006E6DC9 /* Source */,
 				9056602226A5C6E4006E6DC9 /* pages */,
 				9056601F26A5C25C006E6DC9 /* content */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				90C43C6726BE8DAE00C1F572 /* OCViewController.h */,
+				90C43C6826BE8DAE00C1F572 /* OCViewController.m */,
+				90C43C6626BE8DAE00C1F572 /* TinyKit_Example-Bridging-Header.h */,
 			);
 			name = "Example for TinyKit";
 			path = TinyKit;
@@ -170,7 +199,8 @@
 		9056602226A5C6E4006E6DC9 /* pages */ = {
 			isa = PBXGroup;
 			children = (
-				9056602326A5C6FB006E6DC9 /* TypedNotificationViewController.swift */,
+				90A80CED26B58D960081B5AE /* implement notification */,
+				90A80CEC26B58D880081B5AE /* typed-notificiation */,
 			);
 			name = pages;
 			sourceTree = "<group>";
@@ -184,6 +214,51 @@
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		907726F626BB901E009C5141 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				907726F726BB9036009C5141 /* UIImage+extensions.swift */,
+				907726F926BB906A009C5141 /* Int+extension.swift */,
+			);
+			name = tmp;
+			sourceTree = "<group>";
+		};
+		90A80CEC26B58D880081B5AE /* typed-notificiation */ = {
+			isa = PBXGroup;
+			children = (
+				9056602326A5C6FB006E6DC9 /* TypedNotificationViewController.swift */,
+				905CDCA226A70D6D00D4F7BA /* Model_Specialize.swift */,
+				905CDCA426A70DD500D4F7BA /* NotificationRepresentable.swift */,
+				905CDCA626A7165000D4F7BA /* TypedNotification.swift */,
+				905CDCA826A7240E00D4F7BA /* NotificationDescriptor.swift */,
+			);
+			name = "typed-notificiation";
+			sourceTree = "<group>";
+		};
+		90A80CED26B58D960081B5AE /* implement notification */ = {
+			isa = PBXGroup;
+			children = (
+				90A80CEE26B58DC50081B5AE /* Broadcaster.swift */,
+			);
+			name = "implement notification";
+			sourceTree = "<group>";
+		};
+		90A9510626B2F96D00944900 /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				90A9510726B2FB5E00944900 /* Tracker.swift */,
+			);
+			name = StateMachine;
+			sourceTree = "<group>";
+		};
+		90E4C7EC26BAF77300ECC8E4 /* typed erasure */ = {
+			isa = PBXGroup;
+			children = (
+				90E4C7ED26BAF78F00ECC8E4 /* TypedErasure.swift */,
+			);
+			name = "typed erasure";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +314,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1250;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -344,6 +419,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework",
 				"${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -374,6 +450,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRichString.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTweaks.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,9 +487,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9056602426A5C6FB006E6DC9 /* TypedNotificationViewController.swift in Sources */,
+				905CDCA326A70D6D00D4F7BA /* Model_Specialize.swift in Sources */,
+				90C43C6926BE8DAE00C1F572 /* OCViewController.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				90A9510826B2FB5E00944900 /* Tracker.swift in Sources */,
+				90A80CEF26B58DC50081B5AE /* Broadcaster.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				905CDCA726A7165000D4F7BA /* TypedNotification.swift in Sources */,
+				905CDCA926A7240E00D4F7BA /* NotificationDescriptor.swift in Sources */,
+				90E4C7EE26BAF78F00ECC8E4 /* TypedErasure.swift in Sources */,
 				9056602126A5C265006E6DC9 /* Content.swift in Sources */,
+				905CDCA526A70DD500D4F7BA /* NotificationRepresentable.swift in Sources */,
+				907726F826BB9036009C5141 /* UIImage+extensions.swift in Sources */,
+				907726FA26BB906A009C5141 /* Int+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A9510926B2FC9D00944900 /* Tracker.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -537,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -550,12 +638,15 @@
 			baseConfigurationReference = 157475DCA3B766C8BB98EEE4 /* Pods-TinyKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TinyKit/Source/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TinyKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TinyKit/TinyKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -566,12 +657,14 @@
 			baseConfigurationReference = 281B7EE9E16832CBFA794ED5 /* Pods-TinyKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TinyKit/Source/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TinyKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TinyKit/TinyKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

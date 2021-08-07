@@ -7,7 +7,7 @@ target 'TinyKit_Example' do
   pod 'TinyKit',          :path => '../'
   pod 'MLeaksFinder',     :configurations => ['Debug']
   
-  
+  pod 'TransitionKit', '~> 2.0.0'
   
   target 'TinyKit_Tests' do
     inherit! :search_paths

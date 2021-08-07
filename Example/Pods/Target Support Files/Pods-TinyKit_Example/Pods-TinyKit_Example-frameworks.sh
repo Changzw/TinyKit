@@ -202,6 +202,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Action/Action.framework"
@@ -213,7 +214,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MMKVCore/MMKVCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework"
@@ -231,6 +231,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

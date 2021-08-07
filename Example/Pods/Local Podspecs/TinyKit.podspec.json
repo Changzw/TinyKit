@@ -29,12 +29,16 @@
       "source_files": "TinyKit/Classes/Extensions/*"
     },
     {
+      "name": "StateMachine",
+      "source_files": "TinyKit/Classes/StateMachine/*"
+    },
+    {
       "name": "Wrapper",
       "source_files": "TinyKit/Classes/Wrapper/*"
     },
     {
       "name": "nonname",
-      "source_files": "TinyKit/Classes/*"
+      "source_files": "TinyKit/Classes/*.swift"
     },
     {
       "name": "dependency",
@@ -90,9 +94,6 @@
         "SwiftRichString": [
           "3.7.2"
         ],
-        "MLeaksFinder": [
-
-        ],
         "LookinServer": [
 
         ],
@@ -104,9 +105,6 @@
         ]
       },
       "configuration_pod_whitelist": {
-        "MLeaksFinder": [
-          "debug"
-        ],
         "LookinServer": [
           "debug"
         ]

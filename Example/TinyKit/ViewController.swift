@@ -16,6 +16,7 @@ final class ViewController: UITableViewController {
     super.viewDidLoad()
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: String(describing: UITableViewCell.self))
     view.backgroundColor = .blue
+    let layout = UICollectionViewLayout()
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -61,6 +61,7 @@ PODS:
     - TinyKit/dependency (= 0.1.1)
     - TinyKit/Extensions (= 0.1.1)
     - TinyKit/nonname (= 0.1.1)
+    - TinyKit/StateMachine (= 0.1.1)
     - TinyKit/Store (= 0.1.1)
     - TinyKit/Wrapper (= 0.1.1)
   - TinyKit/dependency (0.1.1):
@@ -72,7 +73,6 @@ PODS:
     - LookinServer
     - MagazineLayout (= 1.6.3)
     - MJRefresh (= 3.5.0)
-    - MLeaksFinder
     - MMKV (= 1.2.7)
     - Moya/RxSwift (= 14.0.0)
     - "NSObject+Rx (= 5.1.0)"
@@ -87,11 +87,15 @@ PODS:
     - SwiftTweaks (= 4.1.2)
   - TinyKit/Extensions (0.1.1)
   - TinyKit/nonname (0.1.1)
+  - TinyKit/StateMachine (0.1.1)
   - TinyKit/Store (0.1.1)
   - TinyKit/Wrapper (0.1.1)
+  - TransitionKit (2.0.0)
 
 DEPENDENCIES:
+  - MLeaksFinder
   - TinyKit (from `../`)
+  - TransitionKit (~> 2.0.0)
 
 SPEC REPOS:
   trunk:
@@ -121,6 +125,7 @@ SPEC REPOS:
     - SnapKit
     - SwiftRichString
     - SwiftTweaks
+    - TransitionKit
 
 EXTERNAL SOURCES:
   TinyKit:
@@ -153,8 +158,9 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftRichString: d61b807db1f8834c26fee92b6dd3e1be2dc5af03
   SwiftTweaks: d00f20029460bec9aa0511007cdec708e95f213f
-  TinyKit: 1e7fbd7801d4bd59973a694d17f644d7fee88b78
+  TinyKit: 50e794b04696d3de9f8161b3fa61cc413f8b6fe1
+  TransitionKit: c150629869b0eab9d270f914aad2d1a088a8c19d
 
-PODFILE CHECKSUM: 07120729fcce2939c088c9302ff21b86307742eb
+PODFILE CHECKSUM: c24b84eb9bc628ce2df958bd786d7f2c77423904
 
 COCOAPODS: 1.10.1

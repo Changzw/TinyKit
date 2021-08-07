@@ -42,13 +42,17 @@ TODO: Add long description of the pod here. 日常工作便捷工具
   s.subspec 'Extensions' do |ss|
     ss.source_files = 'TinyKit/Classes/Extensions/*'
   end
-  
+
+  s.subspec 'StateMachine' do |ss|
+    ss.source_files = 'TinyKit/Classes/StateMachine/*'
+  end
+   
   s.subspec 'Wrapper' do |ss|
     ss.source_files = 'TinyKit/Classes/Wrapper/*'
   end
 
   s.subspec 'nonname' do |ss|
-    ss.source_files = 'TinyKit/Classes/*'
+    ss.source_files = 'TinyKit/Classes/*.swift'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
