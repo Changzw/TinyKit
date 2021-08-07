@@ -10,4 +10,6 @@ import Foundation
 
 enum Page: String, CaseIterable {
   case typedNotification
+  case TransitionKit
+  case StateMachine
 }

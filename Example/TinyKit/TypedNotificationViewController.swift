@@ -39,14 +39,14 @@ extension TypedNotificationViewController {
     Broadcaster.register(observer: AnyObserver<Int>(object: self, callback: {
       print("22222")
       dump($0)
-    }), for: AnyEvent(name: Notification.Name("2333")))
+    }), for: AnyNotificationEvent(name: Notification.Name("2333")))
 
     Broadcaster.register(observer: AnyObserver<Int>(object: self, callback: {
       print("22222")
       dump($0)
-    }), for: AnyEvent(name: Notification.Name("2333")))
+    }), for: AnyNotificationEvent(name: Notification.Name("2333")))
 
-    Broadcaster.notify(event: AnyEvent(name: Notification.Name("2333")), model: 1001)
+    Broadcaster.notify(event: AnyNotificationEvent(name: Notification.Name("2333")), model: 1001)
   }
 }
 

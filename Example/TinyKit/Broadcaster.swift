@@ -8,23 +8,23 @@
 
 import Foundation
 
-protocol Event: Hashable & Equatable {
+protocol NotificationEvent: Hashable & Equatable {
   var name: Notification.Name { get }
 }
 
-extension Event {
+extension NotificationEvent {
   var infoKey: String {
     "key"
   }
 }
 
-struct AnyEvent: Event {
+struct AnyNotificationEvent: NotificationEvent {
   let name: Notification.Name
   init(name: Notification.Name) {
     self.name = name
   }
   
-  static func == (lhs: AnyEvent, rhs: AnyEvent) -> Bool {
+  static func == (lhs: AnyNotificationEvent, rhs: AnyNotificationEvent) -> Bool {
     lhs.name == rhs.name
   }
   
@@ -62,7 +62,7 @@ struct AnyObserver<T> {//: Observer {
 //class AnyToken: Token { }
 struct BroadcasterToken {
   let token: NSObjectProtocol
-  let event: AnyEvent
+  let event: AnyNotificationEvent
 }
 
 public final class Broadcaster {
@@ -71,7 +71,7 @@ public final class Broadcaster {
   static let center = NotificationCenter.default
   private static var bag: [ObjectIdentifier: [BroadcasterToken]] = [:]
   
-  static func register<T>(observer: AnyObserver<T>, for event: AnyEvent) {
+  static func register<T>(observer: AnyObserver<T>, for event: AnyNotificationEvent) {
     let t = center.addObserver(forName: event.name, object: nil, queue: .main) { notification in
       guard let info = notification.userInfo?[event.infoKey] as? T else { return }
       observer.callback(info)
@@ -83,7 +83,7 @@ public final class Broadcaster {
     }
   }
   
-  static func unregister(object: AnyObject, for event: AnyEvent? = nil) {
+  static func unregister(object: AnyObject, for event: AnyNotificationEvent? = nil) {
     guard var binds = bag[ObjectIdentifier(object)], binds.count > 0 else {
       return
     }
@@ -113,7 +113,7 @@ public final class Broadcaster {
 //    }
   }
   
-  static func notify<T>(event: AnyEvent, model: T) {
+  static func notify<T>(event: AnyNotificationEvent, model: T) {
     NotificationCenter.default.post(name: event.name, object: nil, userInfo: [event.infoKey: model])
 //    guard let observers = observersDic[event.name] else {return}
 //    observers.forEach{

@@ -8,7 +8,8 @@ target 'TinyKit_Example' do
   pod 'MLeaksFinder',     :configurations => ['Debug']
   
   pod 'TransitionKit', '~> 2.0.0'
-  
+  pod 'StateMachine', :git => 'https://github.com/Tinder/StateMachine.git'
+  pod 'Nimble'
   target 'TinyKit_Tests' do
     inherit! :search_paths
 
