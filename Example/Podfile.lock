@@ -26,7 +26,6 @@ PODS:
   - Moya/RxSwift (14.0.0):
     - Moya/Core
     - RxSwift (~> 5.0)
-  - Nimble (9.2.0)
   - "NSObject+Rx (5.1.0)":
     - RxSwift (~> 5.1)
   - Nuke (9.5.0)
@@ -93,13 +92,16 @@ PODS:
   - TinyKit/Store (0.1.1)
   - TinyKit/Wrapper (0.1.1)
   - TransitionKit (2.0.0)
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
 
 DEPENDENCIES:
   - MLeaksFinder
-  - Nimble
   - StateMachine (from `https://github.com/Tinder/StateMachine.git`)
   - TinyKit (from `../`)
   - TransitionKit (~> 2.0.0)
+  - XCoordinator
 
 SPEC REPOS:
   trunk:
@@ -117,7 +119,6 @@ SPEC REPOS:
     - MMKV
     - MMKVCore
     - Moya
-    - Nimble
     - "NSObject+Rx"
     - Nuke
     - PagingKit
@@ -131,6 +132,7 @@ SPEC REPOS:
     - SwiftRichString
     - SwiftTweaks
     - TransitionKit
+    - XCoordinator
 
 EXTERNAL SOURCES:
   StateMachine:
@@ -158,7 +160,6 @@ SPEC CHECKSUMS:
   MMKV: 22e5136f7d00197bc0fc9694b7f71519f0d1ca12
   MMKVCore: b00e7a09ec77a1b916aef336eedd3b99ec249978
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
   Nuke: 6f400a4ea957e09149ec335a3c6acdcc814d89e4
   PagingKit: 366cc22d74f4de7768bb31d8fcd49182f53e3ce7
@@ -174,7 +175,8 @@ SPEC CHECKSUMS:
   SwiftTweaks: d00f20029460bec9aa0511007cdec708e95f213f
   TinyKit: 50e794b04696d3de9f8161b3fa61cc413f8b6fe1
   TransitionKit: c150629869b0eab9d270f914aad2d1a088a8c19d
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
 
-PODFILE CHECKSUM: e8ee92497a3033111c290e8b9821e882abf86eb6
+PODFILE CHECKSUM: bc1e95816f7eb13794780593ccd6bf3e4729a11c
 
 COCOAPODS: 1.10.1

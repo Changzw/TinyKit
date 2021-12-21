@@ -190,7 +190,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Moya/Moya.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PagingKit/PagingKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxAnimated/RxAnimated.framework"
@@ -205,6 +204,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Action/Action.framework"
@@ -221,7 +221,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Moya/Moya.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PagingKit/PagingKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxAnimated/RxAnimated.framework"
@@ -236,6 +235,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

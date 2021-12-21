@@ -20,6 +20,8 @@
 		905CDCA526A70DD500D4F7BA /* NotificationRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA426A70DD500D4F7BA /* NotificationRepresentable.swift */; };
 		905CDCA726A7165000D4F7BA /* TypedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA626A7165000D4F7BA /* TypedNotification.swift */; };
 		905CDCA926A7240E00D4F7BA /* NotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905CDCA826A7240E00D4F7BA /* NotificationDescriptor.swift */; };
+		905D515F26C03DCA005AEAD3 /* StateTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D515E26C03DCA005AEAD3 /* StateTableView.swift */; };
+		905D516026C03DCA005AEAD3 /* StateTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D515E26C03DCA005AEAD3 /* StateTableView.swift */; };
 		907726F826BB9036009C5141 /* UIImage+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907726F726BB9036009C5141 /* UIImage+extensions.swift */; };
 		907726FA26BB906A009C5141 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907726F926BB906A009C5141 /* Int+extension.swift */; };
 		90A80CEF26B58DC50081B5AE /* Broadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A80CEE26B58DC50081B5AE /* Broadcaster.swift */; };
@@ -64,6 +66,7 @@
 		905CDCA426A70DD500D4F7BA /* NotificationRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepresentable.swift; sourceTree = "<group>"; };
 		905CDCA626A7165000D4F7BA /* TypedNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedNotification.swift; sourceTree = "<group>"; };
 		905CDCA826A7240E00D4F7BA /* NotificationDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDescriptor.swift; sourceTree = "<group>"; };
+		905D515E26C03DCA005AEAD3 /* StateTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTableView.swift; sourceTree = "<group>"; };
 		907726F726BB9036009C5141 /* UIImage+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extensions.swift"; sourceTree = "<group>"; };
 		907726F926BB906A009C5141 /* Int+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
 		90A80CEE26B58DC50081B5AE /* Broadcaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcaster.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		607FACD21AFB9204008FA782 /* Example for TinyKit */ = {
 			isa = PBXGroup;
 			children = (
+				905D515D26C03DAD005AEAD3 /* EmptyView */,
 				907726F626BB901E009C5141 /* tmp */,
 				90E4C7EC26BAF77300ECC8E4 /* typed erasure */,
 				90A9510626B2F96D00944900 /* StateMachine */,
@@ -217,6 +221,14 @@
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		905D515D26C03DAD005AEAD3 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				905D515E26C03DCA005AEAD3 /* StateTableView.swift */,
+			);
+			name = EmptyView;
 			sourceTree = "<group>";
 		};
 		907726F626BB901E009C5141 /* tmp */ = {
@@ -410,7 +422,6 @@
 				"${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingKit/PagingKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAnimated/RxAnimated.framework",
@@ -425,6 +436,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftTweaks/SwiftTweaks.framework",
 				"${BUILT_PRODUCTS_DIR}/TinyKit/TinyKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -443,7 +455,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagazineLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAnimated.framework",
@@ -458,6 +469,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTweaks.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCoordinator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,6 +508,7 @@
 				9056602426A5C6FB006E6DC9 /* TypedNotificationViewController.swift in Sources */,
 				905CDCA326A70D6D00D4F7BA /* Model_Specialize.swift in Sources */,
 				90C43C6B26BE95E000C1F572 /* StateMachineDemoViewController.swift in Sources */,
+				905D515F26C03DCA005AEAD3 /* StateTableView.swift in Sources */,
 				90C43C6926BE8DAE00C1F572 /* TransitionKitDemoViewController.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				90A9510826B2FB5E00944900 /* Tracker.swift in Sources */,
@@ -516,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A9510926B2FC9D00944900 /* Tracker.swift in Sources */,
+				905D516026C03DCA005AEAD3 /* StateTableView.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
